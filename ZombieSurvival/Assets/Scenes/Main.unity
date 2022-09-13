@@ -323,6 +323,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!114 &908242031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908242027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d094917cee245047b2efc35582e942c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &908242032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908242027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7bc2079670e89c4e8b715405f648167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveAxisName: Vertical
+  rotateAxisName: Horizontal
+  fireButtonName: Fire1
+  reloadButtonName: Reload
 --- !u!1 &1078559115
 GameObject:
   m_ObjectHideFlags: 0
