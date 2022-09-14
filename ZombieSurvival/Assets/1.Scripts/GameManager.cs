@@ -20,9 +20,7 @@ public class GameManager : MonoBehaviour
     public bool isGameover;
     private void Awake()
     {
-
         if (instance!=this)
             Destroy(gameObject);
     }
-
 }
