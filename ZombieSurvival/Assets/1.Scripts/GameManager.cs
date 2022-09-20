@@ -22,5 +22,5 @@ public class GameManager : MonoBehaviour
     {
         if (instance!=this)
             Destroy(gameObject);
-    }
+    }  
 }

@@ -358,6 +358,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/1.Scripts/GameManager.cs"
+"Assets/1.Scripts/IItem.cs"
 "Assets/1.Scripts/PlayerInput.cs"
 "Assets/1.Scripts/PlayerMovement.cs"
 -langversion:9.0
