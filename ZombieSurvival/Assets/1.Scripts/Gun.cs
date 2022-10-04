@@ -26,8 +26,9 @@ public class Gun : MonoBehaviour
     private float fireDistance = 50f;
 
     [SerializeField] int ammoRemain = 100;
+    public int m_ammoRemain => ammoRemain;
     [SerializeField] int magAmmo;
-
+    public int m_magAmmo => magAmmo;
     private float lastFireTime;
     void Awake()
     {

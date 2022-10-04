@@ -364,6 +364,8 @@
 "Assets/1.Scripts/IItem.cs"
 "Assets/1.Scripts/PlayerInput.cs"
 "Assets/1.Scripts/PlayerMovement.cs"
+"Assets/1.Scripts/PlayerShooter.cs"
+"Assets/1.Scripts/UImanager.cs"
 -langversion:9.0
 
 /deterministic
