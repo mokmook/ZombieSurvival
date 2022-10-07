@@ -56,7 +56,6 @@ public class Gun : MonoBehaviour
     }
     private void Shot()
     {
-        Debug.DrawRay(fireTransform.position, fireTransform.forward, color: Color.red);
 
         RaycastHit hit;
 

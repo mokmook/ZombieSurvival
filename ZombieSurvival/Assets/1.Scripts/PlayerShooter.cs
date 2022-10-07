@@ -39,6 +39,7 @@ public class PlayerShooter : MonoBehaviour
         }
         UpdateUI();
     }
+
     private void UpdateUI()
     {
         if (gun != null && UImanager.instance != null)
