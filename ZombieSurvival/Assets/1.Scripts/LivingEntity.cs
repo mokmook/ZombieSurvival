@@ -8,6 +8,7 @@ using UnityEngine;
 public class LivingEntity : MonoBehaviour , IDamageable
 {
     [SerializeField] float startingHealth = 100f;
+    public float _startingHealth => startingHealth;
     public float health { get; protected set; }
     public bool dead { get; protected set; }
 
@@ -22,7 +23,7 @@ public class LivingEntity : MonoBehaviour , IDamageable
         health = startingHealth;
     }
     
-    public void OnDamage(float damage, Vector3 hitPoint, Vector3 hitNormal)
+    public virtual void OnDamage(float damage, Vector3 hitPoint, Vector3 hitNormal)
     {
         health -= damage;
 

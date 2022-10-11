@@ -363,6 +363,7 @@
 "Assets/1.Scripts/IDamageable.cs"
 "Assets/1.Scripts/IItem.cs"
 "Assets/1.Scripts/LivingEntity.cs"
+"Assets/1.Scripts/PlayerHealth.cs"
 "Assets/1.Scripts/PlayerInput.cs"
 "Assets/1.Scripts/PlayerMovement.cs"
 "Assets/1.Scripts/PlayerShooter.cs"
